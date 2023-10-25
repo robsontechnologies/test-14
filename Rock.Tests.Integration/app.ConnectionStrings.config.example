@@ -1,0 +1,23 @@
+﻿<!-- Copy this file, removing the .example extension. Then fill in your connection details to get started with Rock. -->
+<connectionStrings>
+  <add
+    name="RockContext"
+    connectionString="
+      Data Source=localhost;
+      Initial Catalog=database_name;
+      User Id=sql_user_id;
+      password=sql_user_password;
+      MultipleActiveResultSets=true"
+    providerName="System.Data.SqlClient"/>
+<!-- Sample Connection String for SQL Server Express LocalDB -->
+  <add
+    name="RockContext"
+    connectionString="
+      Server=(LocalDB)\MSSQLLocalDB;
+      Integrated Security=true;
+      AttachDbFileName=D:\Data\MyDB1.mdf
+      User Id=sql_user_id;
+      password=sql_user_password;
+      MultipleActiveResultSets=true" />
+
+</connectionStrings>
